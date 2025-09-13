@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { searchAnime } from "../api/fetchAnime"; // new API
 import AnimeCard from "../components/AnimeCard";
-import Navbar from "../components/NavBar";
+import Navbar from "../components/Nav-bar";
 
 function useQuery() {
   return new URLSearchParams(useLocation().search);

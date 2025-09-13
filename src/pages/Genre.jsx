@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../components/NavBar";
+
 import AnimeCard from "../components/AnimeCard";
 import { fetchTopAnime, fetchAnimeByGenre } from "../api/fetchAnime";
+import Navbar from "../components/Nav-bar";
 
 const Genre = () => {
   const [topAnime, setTopAnime] = useState([]);
@@ -21,7 +22,7 @@ const Genre = () => {
 
   return (
     <main className="bg-cover bg-no-repeat text-text-primary min-h-screen w-screen overflow-hidden">
-      <Navbar />
+     <Navbar/>
       <div className="px-10 py-12 space-y-20 pt-[100px]">
         {/* TOP ANIME */}
         <section>

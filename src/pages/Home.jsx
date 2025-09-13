@@ -1,10 +1,9 @@
 import React from "react";
-import Navbar from "../components/NavBar";
 import Button from "../components/Button";
 import me11 from "../assets/images/me1-1.png";
 import msgr1 from "../assets/images/msgr-1.png";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../components/Nav-bar";
 export default function Home() {
     const navigate=useNavigate();
   return (
